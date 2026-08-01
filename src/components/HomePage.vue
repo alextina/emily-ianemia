@@ -3,6 +3,8 @@ import AppHeader from './AppHeader.vue'
 import HeroSection from './HeroSection.vue'
 import RiskSection from './RiskSection.vue'
 import FeaturesSection from './FeaturesSection.vue'
+import HowItWorksSection from './HowItWorksSection.vue'
+import TrustSection from './TrustSection.vue'
 </script>
 
 <template>
@@ -10,4 +12,6 @@ import FeaturesSection from './FeaturesSection.vue'
   <HeroSection />
   <RiskSection />
   <FeaturesSection />
+  <HowItWorksSection />
+  <TrustSection />
 </template>

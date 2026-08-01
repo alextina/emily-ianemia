@@ -45,6 +45,7 @@
   --brand-heading: #1a1a1a;
   --brand-text-muted: #5c5652;
   --brand-border: rgba(26, 26, 26, 0.08);
+  --brand-green-dark: #47594e;
 }
 
 @media (prefers-color-scheme: dark) {
