@@ -1,6 +1,18 @@
-# emily
+# Emily · IAnemia
 
-This template should help get you started developing with Vue 3 in Vite.
+Landing page del proyecto **Emily**, un asistente que ayuda a prevenir la anemia ferropénica con seguimiento personalizado de ciclo, alimentación y energía a través de un bot de Telegram.
+
+Proyecto presentado para la competencia **Build with Gemma - GDG Lima**.
+
+## Enlaces
+
+- 🌐 Web (Vercel): [emily-ianemia.vercel.app](https://emily-ianemia.vercel.app/)
+- 🤖 Bot de Telegram: [t.me/IAnemiabot](https://t.me/IAnemiabot)
+- 🏆 Writeup en Kaggle: [Emily by IAnemia](https://kaggle.com/competitions/build-with-gemma-gdg-lima-ai/writeups/emily-by-ianemia)
+
+## Stack
+
+Vue 3 + TypeScript + Vite.
 
 ## Recommended IDE Setup
 
