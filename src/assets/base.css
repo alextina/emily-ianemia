@@ -36,6 +36,17 @@
   --section-gap: 160px;
 }
 
+/* Emily brand palette */
+:root {
+  --brand-bg: #fdf1ea;
+  --brand-bg-soft: #fdf6f2;
+  --brand-primary: #a85c46;
+  --brand-primary-dark: #8a4936;
+  --brand-heading: #1a1a1a;
+  --brand-text-muted: #5c5652;
+  --brand-border: rgba(26, 26, 26, 0.08);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
