@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import phoneMockup from '../assets/phone-mockup.png'
+import heroImg from '../assets/hero-section-img.png'
 </script>
 
 <template>
   <div class="phone-mockup">
-    <img :src="phoneMockup" alt="Emily chat en Telegram" class="phone-mockup__img" />
+    <img :src="heroImg" alt="Emily chat en Telegram" class="phone-mockup__img" />
   </div>
 </template>
 

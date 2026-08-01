@@ -16,7 +16,7 @@ import PhoneMockup from './PhoneMockup.vue'
           personalizado directamente en tu aplicación de mensajería favorita.
         </p>
 
-        <a href="#chat" class="hero__cta">
+        <a href="https://t.me/IAnemiabot" target="_blank" rel="noopener" class="hero__cta">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
             <path
               d="M21.05 3.53 2.9 10.55c-1.23.5-1.22 1.2-.22 1.5l4.65 1.45 1.8 5.5c.22.6.37.84.75.84.35 0 .5-.16.7-.36l1.7-1.63 4.7 3.44c.87.48 1.5.23 1.72-.8l3.1-14.4c.32-1.28-.5-1.86-1.55-1.56z"

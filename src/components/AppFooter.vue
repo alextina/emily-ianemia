@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import logo from '../assets/Logotipo - transparente.png'
+import logo from '../assets/logo-sin-fondo.png'
 
 const columns = [
   {

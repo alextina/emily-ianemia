@@ -22,15 +22,14 @@ const steps = [
   },
 ]
 
-// import howItWorksPhoto from '../assets/how-it-works.png'
+import howItWorksPhoto from '../assets/how-works-section-img.png'
 </script>
 
 <template>
   <section id="how-it-works" class="how-it-works">
     <div class="how-it-works__inner">
       <div class="how-it-works__visual">
-        <!-- <img :src="howItWorksPhoto" alt="Chat con Emily en Telegram" /> -->
-        <span class="how-it-works__visual-label">Imagen pendiente</span>
+        <img :src="howItWorksPhoto" alt="Chat con Emily en Telegram" class="how-it-works__visual-img" />
       </div>
 
       <div class="how-it-works__content">
@@ -46,7 +45,7 @@ const steps = [
           </li>
         </ol>
 
-        <a href="#chat" class="how-it-works__cta">Empezar ahora</a>
+        <a href="https://t.me/IAnemiabot" target="_blank" rel="noopener" class="how-it-works__cta">Empezar ahora</a>
       </div>
     </div>
   </section>
@@ -68,15 +67,15 @@ const steps = [
 }
 
 .how-it-works__visual {
-  aspect-ratio: 4 / 3.4;
   border-radius: 1.5rem;
-  background: #ece8e4;
-  border: 2px dashed var(--brand-border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--brand-text-muted);
-  font-size: 0.9rem;
+  overflow: hidden;
+}
+
+.how-it-works__visual-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .how-it-works__title {

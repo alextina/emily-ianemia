@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import logo from '../assets/Logotipo - transparente.png'
+import logo from '../assets/logo-sin-fondo.png'
 
 const navLinks = [
   { label: 'Features', href: '#features' },
@@ -21,7 +21,7 @@ const navLinks = [
         </a>
       </nav>
 
-      <a href="#chat" class="app-header__cta">Talk to Emily</a>
+      <a href="https://t.me/IAnemiabot" target="_blank" rel="noopener" class="app-header__cta">Talk to Emily</a>
     </div>
   </header>
 </template>
