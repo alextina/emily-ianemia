@@ -36,7 +36,7 @@ const features = [
 </script>
 
 <template>
-  <section class="features">
+  <section id="features" class="features">
     <div class="features__inner">
       <div class="features__header">
         <h2 class="features__title">Diseñada para tu bienestar integral</h2>
