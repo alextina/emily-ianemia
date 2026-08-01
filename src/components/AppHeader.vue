@@ -11,9 +11,12 @@ const navLinks = [
 <template>
   <header class="app-header">
     <div class="app-header__inner">
-      <a href="#" class="app-header__brand">
-        <img :src="logo" alt="Emily" class="app-header__logo" />
-      </a>
+      <div class="app-header__brand-group">
+        <a href="#" class="app-header__brand">
+          <img :src="logo" alt="Emily" class="app-header__logo" />
+        </a>
+        <span class="app-header__slogan">Tu confidente de salud femenina</span>
+      </div>
 
       <nav class="app-header__nav">
         <a v-for="link in navLinks" :key="link.href" :href="link.href" class="app-header__link">
@@ -42,6 +45,12 @@ const navLinks = [
   gap: 2rem;
 }
 
+.app-header__brand-group {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
 .app-header__brand {
   display: inline-flex;
   align-items: center;
@@ -55,6 +64,13 @@ const navLinks = [
   height: 22px;
   width: auto;
   display: block;
+}
+
+.app-header__slogan {
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--brand-text-muted);
+  white-space: nowrap;
 }
 
 .app-header__nav {
@@ -93,6 +109,12 @@ const navLinks = [
 
 .app-header__cta:hover {
   background: var(--brand-primary);
+}
+
+@media (max-width: 900px) {
+  .app-header__slogan {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {

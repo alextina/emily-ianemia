@@ -25,6 +25,7 @@ const columns = [
           <div class="app-footer__logo-badge">
             <img :src="logo" alt="Emily" class="app-footer__logo" />
           </div>
+          <p class="app-footer__slogan">Tu confidente de salud femenina</p>
           <p class="app-footer__tagline">
             Transformando la salud femenina a través de la conversación y el
             cuidado preventivo.
@@ -92,6 +93,13 @@ const columns = [
   height: 20px;
   width: auto;
   display: block;
+}
+
+.app-footer__slogan {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--brand-heading);
+  margin: 0 0 0.4rem;
 }
 
 .app-footer__tagline {
