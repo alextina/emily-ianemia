@@ -5,6 +5,7 @@ import RiskSection from './RiskSection.vue'
 import FeaturesSection from './FeaturesSection.vue'
 import HowItWorksSection from './HowItWorksSection.vue'
 import TrustSection from './TrustSection.vue'
+import AppFooter from './AppFooter.vue'
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import TrustSection from './TrustSection.vue'
   <FeaturesSection />
   <HowItWorksSection />
   <TrustSection />
+  <AppFooter />
 </template>
